@@ -5,7 +5,7 @@ interface FormFieldProps {
   label: string;
   type?: string;
   value: any;
-  onChange? (...args: any) => any;
+  onChange?: (...args: any) => any;
   error?: string;
 }
 
